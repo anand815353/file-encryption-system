@@ -1,0 +1,7 @@
+HI!
+    I AM TEST FILE.
+    YOU CAN ENCRYPT ME IF YOU WANT.
+    OR YOU CAN DECRYPT ME.
+    I WILL DO WHAT EVER YOU WANT.
+                                WITH REGARDS
+                                  test.txt

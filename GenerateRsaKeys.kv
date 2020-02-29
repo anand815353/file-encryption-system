@@ -1,0 +1,30 @@
+#: kivy  1.10.0
+
+<GuiWindow>:
+    canvas.before:
+        Color:
+            rgba: (1,1,1,1)
+        Rectangle:
+            pos: self.pos
+            size: self.size
+    Label:
+        id: text_label
+        text: "AES CBC MODE"
+        color: (0,0,0,1)
+        font_size: 40
+        center_x: root.width * 0.5
+        center_y: root.top * 0.8
+
+    Button:
+        id: Decrypt_button
+        font_size: 20
+        center_x: root.width * 0.5
+        center_y: text_label.y - 100
+        text: "Generate Key's"
+        size: (150,100)
+        on_press: root.user()
+    Label:
+        id: success
+        pos: (100,100)
+        color: (0,0,0,1)
+        text: ""
